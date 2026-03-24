@@ -6,8 +6,11 @@ Tema: Comparação entre Algoritmos Iterativos e Recursivos.
 
 # Elementos do Grupo:
 Domingos magareta
+
 Faria Fernando Gua 
+
 Leyla da Glória 
+
 Roque Armando 
 
 # Descrição
