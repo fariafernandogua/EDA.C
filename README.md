@@ -1,23 +1,19 @@
 # Estruturas de Dados e Algoritmos
 
-Trabalho Prático
+# Trabalho Prático
 
 Tema: Comparação entre Algoritmos Iterativos e Recursivos.
 
-Elementos do Grupo:
-
+# Elementos do Grupo:
 Domingos magareta
-
 Faria Fernando Gua 
-
 Leyla da Glória 
-
 Roque Armando 
 
-Descrição
+# Descrição
 Este projeto implementa algoritmos clássicos nas suas versões iterativa e recursiva, permitindo analisar as diferenças entre essas duas abordagens.
 
-Os algoritmos estudados incluem:
+# Os algoritmos estudados incluem:
 Cálculo do fatorial
 Sequência de Fibonacci
 Busca binária.
@@ -27,7 +23,7 @@ Número de operações realizadas
 Tempo de execução (opcional)
 Consumo de memória (conceitual).
 
-Funcionalidades
+# Funcionalidades
 Calcular fatorial de forma iterativa
 Calcular fatorial de forma recursiva
 Calcular Fibonacci iterativo
@@ -38,10 +34,10 @@ Comparar desempenho entre versões
 Exibir número de chamadas (recursivas) ou iterações
 Mostrar resultados obtidos.
 
-Linguagem utilizada
+# Linguagem utilizada
 C
 
-Como executar
+# Como executar
 1. Compilar o programa:
 gcc main.c funcoes.c -o programa
 
