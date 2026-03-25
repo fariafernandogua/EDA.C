@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include "funcoes.h"
 int main() {
     int opcao, op, n;
 
