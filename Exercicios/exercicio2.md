@@ -1,5 +1,5 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <stdio.h>
+#include <string.h>
 
 long long memo[1000];
 
@@ -13,9 +13,11 @@ long long fibonacci_memo(int n) {
 
 int main() {
     // Inicializa o vetor com -1
-    memset(memo, -1, sizeof(memo));
+    for (int i = 0; i < 1000; i++) {
+        memo[i] = -1;
+    }
 
-    cout << fibonacci_memo(50) << endl; // Exemplo: Fibonacci de 50
+    printf("%lld\n", fibonacci_memo(50)); // Exemplo: Fibonacci de 50
     return 0;
 }
 
