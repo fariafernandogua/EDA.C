@@ -1,5 +1,4 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <stdio.h>
 
 unsigned long long fatorial_iterativo(int n) {
     unsigned long long resultado = 1;
@@ -10,7 +9,6 @@ unsigned long long fatorial_iterativo(int n) {
 }
 
 int main() {
-    cout << fatorial_iterativo(20) << endl; // Exemplo: fatorial de 20
+    printf("%llu\n", fatorial_iterativo(20)); // Exemplo: fatorial de 20
     return 0;
 }
-
