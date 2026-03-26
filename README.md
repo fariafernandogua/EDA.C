@@ -42,16 +42,6 @@ Calcular Fibonacci iterativo
 
 Calcular Fibonacci recursivo
 
-Executar busca binária iterativa
-
-Executar busca binária recursiva
-
-Comparar desempenho entre versões
-
-Exibir número de chamadas (recursivas) ou iterações
-
-Mostrar resultados obtidos.
-
 # Linguagem utilizada
 C
 
