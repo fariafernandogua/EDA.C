@@ -1,1 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+long long memo[1000];
+
+long long fibonacci_memo(int n) {
+    if (n == 0) return 0;
+    if (n == 1) return 1;
+    if (memo[n] != -1) return memo[n];
+    memo[n] = fibonacci_memo(n - 1) + fibonacci_memo(n - 2);
+    return memo[n];
+}
+
+int main() {
+    // Inicializa o vetor com -1
+    memset(memo, -1, sizeof(memo));
+
+    cout << fibonacci_memo(50) << endl; // Exemplo: Fibonacci de 50
+    return 0;
+}
 
